@@ -910,476 +910,73 @@
 
     <xs:restriction base="xs:token">
 
-      <xs:enumeration value="Semantic Asset">
-        <xs:annotation>
-          <xs:documentation> an unspecified semantic asset </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Code List">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Data Dictionary">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Data Model">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Data Type">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Dictionary">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: File Format">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Glossary">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Name Authority List">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: Common Logic">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: CycL">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: DAML+OIL">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration
-        value="Semantic Asset: Ontology: DOGMA (Developing Ontology-Grounded Methods and Applications)">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: F-Logic (Frame Logic)">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: Gellish">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: KIF (Knowledge Interchange Format)">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: KL-ONE">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: KM">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: LOOM (ontology)">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration
-        value="Semantic Asset: Ontology: OCML (Operational Conceptual Modelling Language)">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: OIL (Ontology Inference Layer)">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: OKBC (Open Knowledge Base Connectivity)">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: OWL (Web Ontology Language)">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: PLIB (Parts LIBrary)">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: RACER">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: RDF (Resource Description Framework)">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: RDF Schema (RDFS)">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: SHOE">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Ontology: Turtle">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Reference Model">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: XSD">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: JSON-LD">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: JSON Schema">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: HDF5-based">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: XML-based">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: JSON-based">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: DTD">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: RDF">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: CLiX">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: DDML">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: DSD">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: NRL">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: NVDL">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: CAM">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: RelaxNG">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: SOX">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: XDR">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: XER">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: WXS">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Schema: Schematron">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-
-      <xs:enumeration value="Semantic Asset: Service Description">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Taxonomy">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Thesaurus">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Vocabulary">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Vocabulary: N-Quads">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Vocabulary: N-Triples">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Vocabulary: Notation3">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Vocabulary: RDF/JSON">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Vocabulary: RDF/XML">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Vocabulary: TriG">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Vocabulary: TriX">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Vocabulary: Turtle">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Vocabulary: Sesame Binary RDF">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Vocabulary: SKOS">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-
-      <xs:enumeration value="Semantic Asset: Vocabulary: Zthes">
-        <xs:annotation>
-          <xs:documentation> a semantic asset subtype identified by a RDA task group
-          </xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
+      <xs:enumeration value="Semantic Asset"><xs:annotation><xs:documentation>an unspecified semantic asset</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Code List"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Data Dictionary"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Data Model"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Data Type"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Dictionary"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: File Format"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Glossary"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Name Authority List"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: Common Logic"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: CycL"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: DAML+OIL"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: DOGMA"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: F-Logic"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: Gellish"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: KIF"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: KL-ONE"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: KM"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: LOOM"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: OCML"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: OIL"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: OKBC"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: OWL"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: PLIB"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: RACER"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: RDF"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: RDF Schema"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: SHOE"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Ontology: Turtle"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Reference Model"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: CAM"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: CLiX"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: DDML"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: DSD"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: DTD"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: HDF5-based"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: JSON Schema"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: JSON-based"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: JSON-LD"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: NRL"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: NVDL"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: RDF"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: RelaxNG"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: Schematron"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: SOX"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: WXS"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: XDR"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: XER"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: XML-based"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Schema: XSD"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Service Description"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Taxonomy"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Thesaurus"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Vocabulary"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Vocabulary: N-Quads"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Vocabulary: N-Triples"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Vocabulary: Notation3"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Vocabulary: RDF/JSON"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Vocabulary: RDF/XML"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Vocabulary: Sesame Binary RDF"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Vocabulary: SKOS"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Vocabulary: TriG"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Vocabulary: TriX"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Vocabulary: Turtle"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
+      <xs:enumeration value="Semantic Asset: Vocabulary: Zthes"><xs:annotation><xs:documentation>a semantic asset subtype identified by a RDA task group</xs:documentation></xs:annotation></xs:enumeration>
 
     </xs:restriction>
   </xs:simpleType>
