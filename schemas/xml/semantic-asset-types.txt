@@ -1,0 +1,67 @@
+Semantic Asset
+Semantic Asset: Code List
+Semantic Asset: Data Dictionary
+Semantic Asset: Data Model
+Semantic Asset: Data Type
+Semantic Asset: Dictionary
+Semantic Asset: File Format
+Semantic Asset: Glossary
+Semantic Asset: Name Authority List
+Semantic Asset: Ontology
+Semantic Asset: Ontology: Common Logic
+Semantic Asset: Ontology: CycL
+Semantic Asset: Ontology: DAML+OIL
+Semantic Asset: Ontology: DOGMA
+Semantic Asset: Ontology: F-Logic
+Semantic Asset: Ontology: Gellish
+Semantic Asset: Ontology: KIF
+Semantic Asset: Ontology: KL-ONE
+Semantic Asset: Ontology: KM
+Semantic Asset: Ontology: LOOM
+Semantic Asset: Ontology: OCML
+Semantic Asset: Ontology: OIL
+Semantic Asset: Ontology: OKBC
+Semantic Asset: Ontology: OWL
+Semantic Asset: Ontology: PLIB
+Semantic Asset: Ontology: RACER
+Semantic Asset: Ontology: RDF
+Semantic Asset: Ontology: RDF Schema
+Semantic Asset: Ontology: SHOE
+Semantic Asset: Ontology: Turtle
+Semantic Asset: Reference Model
+Semantic Asset: Schema
+Semantic Asset: Schema: CAM
+Semantic Asset: Schema: CLiX
+Semantic Asset: Schema: DDML
+Semantic Asset: Schema: DSD
+Semantic Asset: Schema: DTD
+Semantic Asset: Schema: HDF5-based
+Semantic Asset: Schema: JSON Schema
+Semantic Asset: Schema: JSON-based
+Semantic Asset: Schema: JSON-LD
+Semantic Asset: Schema: NRL
+Semantic Asset: Schema: NVDL
+Semantic Asset: Schema: RDF
+Semantic Asset: Schema: RelaxNG
+Semantic Asset: Schema: Schematron
+Semantic Asset: Schema: SOX
+Semantic Asset: Schema: WXS
+Semantic Asset: Schema: XDR
+Semantic Asset: Schema: XER
+Semantic Asset: Schema: XML-based
+Semantic Asset: Schema: XSD
+Semantic Asset: Service Description
+Semantic Asset: Taxonomy
+Semantic Asset: Thesaurus
+Semantic Asset: Vocabulary
+Semantic Asset: Vocabulary: N-Quads
+Semantic Asset: Vocabulary: N-Triples
+Semantic Asset: Vocabulary: Notation3
+Semantic Asset: Vocabulary: RDF/JSON
+Semantic Asset: Vocabulary: RDF/XML
+Semantic Asset: Vocabulary: Sesame Binary RDF
+Semantic Asset: Vocabulary: SKOS
+Semantic Asset: Vocabulary: TriG
+Semantic Asset: Vocabulary: TriX
+Semantic Asset: Vocabulary: Turtle
+Semantic Asset: Vocabulary: Zthes
