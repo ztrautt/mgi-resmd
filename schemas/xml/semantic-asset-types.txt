@@ -18,7 +18,6 @@ Semantic Asset: Name Authority List
 Semantic Asset: Ontology
 Semantic Asset: Ontology: DAML+OIL
 Semantic Asset: Ontology: KIF
-Semantic Asset: Ontology: OKBC
 Semantic Asset: Ontology: OWL
 Semantic Asset: Ontology: PLIB
 Semantic Asset: Ontology: RDF
@@ -30,7 +29,7 @@ Semantic Asset: Schema: DTD
 Semantic Asset: Schema: HDF5-based
 Semantic Asset: Schema: JSON Schema
 Semantic Asset: Schema: JSON-based
-Semantic Asset: Schema: RDFs
+Semantic Asset: Schema: RDF Schema
 Semantic Asset: Schema: RelaxNG
 Semantic Asset: Schema: Schematron
 Semantic Asset: Schema: XML-based
@@ -38,6 +37,7 @@ Semantic Asset: Schema: XSD
 Semantic Asset: Service Description
 Semantic Asset: Taxonomy
 Semantic Asset: Thesaurus
+Semantic Asset: Thesaurus: Zthes
 Semantic Asset: Vocabulary
 Semantic Asset: Vocabulary: SKOS
 Semantic Asset: Vocabulary: Zthes
