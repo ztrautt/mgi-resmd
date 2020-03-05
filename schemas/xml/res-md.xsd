@@ -928,8 +928,10 @@
     </xs:annotation>
 
     <xs:restriction base="xs:token">
-
-      <xs:enumeration value="Code List">
+      
+      <xs:enumeration value="Semantic Asset"/>
+      
+      <xs:enumeration value="Semantic Asset: Code List">
         <xs:annotation>
           <xs:documentation>
             A controlled set of brief text strings that represent specific concepts
@@ -940,7 +942,7 @@
         </xs:annotation>
       </xs:enumeration>
       
-      <xs:enumeration value="Data Dictionary">
+      <xs:enumeration value="Semantic Asset: Data Dictionary">
         <xs:annotation>
           <xs:documentation>
             A document that defines the meaning of tags, column names, or other markup
@@ -949,7 +951,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Data Model">
+      <xs:enumeration value="Semantic Asset: Data Model">
         <xs:annotation>
           <xs:documentation>
             A conceptual design for components of data set and their relationships to each other
@@ -957,7 +959,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Data Type">
+      <xs:enumeration value="Semantic Asset: Data Type">
         <xs:annotation>
           <xs:documentation>
             a definition for a category of data that constrains its components, possible values,
@@ -966,7 +968,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Dictionary">
+      <xs:enumeration value="Semantic Asset: Dictionary">
         <xs:annotation>
           <xs:documentation>
             a collection of associations of names or identifiers with values or meanings
@@ -974,7 +976,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="File Format">
+      <xs:enumeration value="Semantic Asset: File Format">
         <xs:annotation>
           <xs:documentation>
             a specific definition of how data can be represented digitally as a stored object
@@ -983,7 +985,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Glossary">
+      <xs:enumeration value="Semantic Asset: Glossary">
         <xs:annotation>
           <xs:documentation>
             a resource for learning the semantic meaning of a vocabulary term or other symbol
@@ -991,7 +993,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Name Authority List">
+      <xs:enumeration value="Semantic Asset: Name Authority List">
         <xs:annotation>
           <xs:documentation>
             a collection of identifiers that map to organizations and other entities that have 
@@ -1000,7 +1002,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Ontology">
+      <xs:enumeration value="Semantic Asset: Ontology">
         <xs:annotation>
           <xs:documentation>
             a formal definition of names for concepts and categories and their interrelationships
@@ -1008,7 +1010,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Ontology: DAML+OIL">
+      <xs:enumeration value="Semantic Asset: Ontology: DAML+OIL">
         <xs:annotation>
           <xs:documentation>
             the DAML+OIL ontology definition language
@@ -1016,7 +1018,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Ontology: KIF">
+      <xs:enumeration value="Semantic Asset: Ontology: KIF">
         <xs:annotation>
           <xs:documentation>
             The Knowledge Interchange Format (KIF) for expressing knowledge assertions
@@ -1024,7 +1026,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Ontology: OWL">
+      <xs:enumeration value="Semantic Asset: Ontology: OWL">
         <xs:annotation>
           <xs:documentation>
             The Web Ontology Language (OWL) for authoring ontologies
@@ -1032,7 +1034,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Ontology: PLIB">
+      <xs:enumeration value="Semantic Asset: Ontology: PLIB">
         <xs:annotation>
           <xs:documentation>
             The PLIB (parts Libary) framework for mapping an ontology into a database model
@@ -1040,7 +1042,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Ontology: RDF">
+      <xs:enumeration value="Semantic Asset: Ontology: RDF">
         <xs:annotation>
           <xs:documentation>
             the Resource Data Framework (RDF) describing the relationships between things and
@@ -1049,7 +1051,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Ontology: RDF Schema">
+      <xs:enumeration value="Semantic Asset: Ontology: RDF Schema">
         <xs:annotation>
           <xs:documentation>
             The use of RDF Schema as a means for defining or constraining an ontology
@@ -1057,7 +1059,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Reference Model">
+      <xs:enumeration value="Semantic Asset: Reference Model">
         <xs:annotation>
           <xs:documentation>
             a conceptual but detailed description of a system that can be used to implement examples
@@ -1066,7 +1068,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Schema">
+      <xs:enumeration value="Semantic Asset: Schema">
         <xs:annotation>
           <xs:documentation>
             a defined framework for structuring data in a common way for a particular purpose
@@ -1074,7 +1076,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Schema: DTD">
+      <xs:enumeration value="Semantic Asset: Schema: DTD">
         <xs:annotation>
           <xs:documentation>
             a Data Type Definition (DTD) document that identifies and constrains the XML markup 
@@ -1083,7 +1085,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Schema: HDF5-based">
+      <xs:enumeration value="Semantic Asset: Schema: HDF5-based">
         <xs:annotation>
           <xs:documentation>
             a defined profile of the HDF5 format that constains how to structure particular data
@@ -1092,7 +1094,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Schema: JSON Schema">
+      <xs:enumeration value="Semantic Asset: Schema: JSON Schema">
         <xs:annotation>
           <xs:documentation>
             a JSON Schema definition document that contrains the properties and structure of 
@@ -1101,7 +1103,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Schema: JSON-based">
+      <xs:enumeration value="Semantic Asset: Schema: JSON-based">
         <xs:annotation>
           <xs:documentation>
             any (other) type of schema that constrains the properties and structure of JSON data
@@ -1109,7 +1111,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Schema: RDF Schema">
+      <xs:enumeration value="Semantic Asset: Schema: RDF Schema">
         <xs:annotation>
           <xs:documentation>
             the RDF Schema framework for defining constraints on the representation of information
@@ -1118,7 +1120,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Schema: RelaxNG">
+      <xs:enumeration value="Semantic Asset: Schema: RelaxNG">
         <xs:annotation>
           <xs:documentation>
             the RelaxNG model and format for defining an XML schema
@@ -1126,7 +1128,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Schema: Schematron">
+      <xs:enumeration value="Semantic Asset: Schema: Schematron">
         <xs:annotation>
           <xs:documentation>
             the Schematron model and format for defining an XML schema
@@ -1134,7 +1136,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Schema: XML-based">
+      <xs:enumeration value="Semantic Asset: Schema: XML-based">
         <xs:annotation>
           <xs:documentation>
             any (other) type of schema that constrains the properties and structure of an XML document
@@ -1142,7 +1144,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Schema: XSD">
+      <xs:enumeration value="Semantic Asset: Schema: XSD">
         <xs:annotation>
           <xs:documentation>
             the W3C XML Schema model and format for defining an XML schema
@@ -1150,7 +1152,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Service Description">
+      <xs:enumeration value="Semantic Asset: Service Description">
         <xs:annotation>
           <xs:documentation>
             a formal (i.e. machine-readable) or informal description of the use of a (web)
@@ -1159,7 +1161,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Taxonomy">
+      <xs:enumeration value="Semantic Asset: Taxonomy">
         <xs:annotation>
           <xs:documentation>
             a set of terms (usually without definitions) typically used for categorizing things
@@ -1167,7 +1169,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Thesaurus">
+      <xs:enumeration value="Semantic Asset: Thesaurus">
         <xs:annotation>
           <xs:documentation>
             a document or data collection that describes the relationships, equivalencies,
@@ -1176,7 +1178,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Thesaurus: Zthes">
+      <xs:enumeration value="Semantic Asset: Thesaurus: Zthes">
         <xs:annotation>
           <xs:documentation>
             a thesaurus defined using the Zthes model or XML format
@@ -1184,7 +1186,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Vocabulary">
+      <xs:enumeration value="Semantic Asset: Vocabulary">
         <xs:annotation>
           <xs:documentation>
             a controlled list of terms for a particular subject area, often accompanied with semantic
@@ -1193,7 +1195,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Vocabulary: SKOS">
+      <xs:enumeration value="Semantic Asset: Vocabulary: SKOS">
         <xs:annotation>
           <xs:documentation>
             a vocabulary defined with the Simple Knowledge Organization System (SKOS) 
@@ -1201,7 +1203,7 @@
         </xs:annotation>
       </xs:enumeration>
 
-      <xs:enumeration value="Vocabulary: Zthes">
+      <xs:enumeration value="Semantic Asset: Vocabulary: Zthes">
         <xs:annotation>
           <xs:documentation>
             a vocabulary defined using the Zthes model or XML format
@@ -1221,7 +1223,7 @@
 
     <xs:restriction base="xs:token">
 
-      <xs:enumeration value="JSON">
+      <xs:enumeration value="Supported Format: JSON">
         <xs:annotation>
           <xs:documentation>
             JavaScript Object Notation as defined by IETF RFC8259 and described at
@@ -1230,7 +1232,7 @@
         </xs:annotation>
       </xs:enumeration>
       
-      <xs:enumeration value="JSON-LD">
+      <xs:enumeration value="Supported Format: JSON-LD">
         <xs:annotation>
           <xs:documentation>
             JSON for Linked Data as defined by W3C and described at https://json-ld.org.
@@ -1238,7 +1240,7 @@
         </xs:annotation>
       </xs:enumeration>
       
-      <xs:enumeration value="N-Triples">
+      <xs:enumeration value="Supported Format: N-Triples">
         <xs:annotation>
           <xs:documentation>
             The N-Triples RDF serialization format as defined by W3C
@@ -1246,7 +1248,7 @@
         </xs:annotation>
       </xs:enumeration>
       
-      <xs:enumeration value="N-Quads">
+      <xs:enumeration value="Supported Format: N-Quads">
         <xs:annotation>
           <xs:documentation>
             The N-Quads RDF serialization format as defined by W3C
@@ -1254,7 +1256,7 @@
         </xs:annotation>
       </xs:enumeration>
       
-      <xs:enumeration value="RDF/JSON">
+      <xs:enumeration value="Supported Format: RDF/JSON">
         <xs:annotation>
           <xs:documentation>
             The RDF 1.1 JSON Alternative Serialization for RDF as defined by W3C
@@ -1262,7 +1264,7 @@
         </xs:annotation>
       </xs:enumeration>
       
-      <xs:enumeration value="RDF/XML">
+      <xs:enumeration value="Supported Format: RDF/XML">
         <xs:annotation>
           <xs:documentation>
             The RDF 1.1 XML Syntax for RDF as defined by W3C
@@ -1270,7 +1272,7 @@
         </xs:annotation>
       </xs:enumeration>
       
-      <xs:enumeration value="Turtle">
+      <xs:enumeration value="Supported Format: Turtle">
         <xs:annotation>
           <xs:documentation>
             The Terse RDF Triple Language (Turtle) format for RDF as defined by W3C
@@ -1278,7 +1280,7 @@
         </xs:annotation>
       </xs:enumeration>
       
-      <xs:enumeration value="XML">
+      <xs:enumeration value="Supported Format: XML">
         <xs:annotation>
           <xs:documentation>
             The eXtensible Markup Language (XML) information serialization format as defined by W3C
