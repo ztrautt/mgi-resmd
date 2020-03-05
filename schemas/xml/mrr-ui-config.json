@@ -114,7 +114,7 @@
     "SemanticAsset": {
         "title": "Semantic Asset",
         "icon": "fa-code",
-        "icon_color": "#C70039",
+        "icon_color": "#c07c16",
         "display_icon": true,
         "description": "A resource used to enable syntactic or semantic representation of information",
         "role_choice": "SemanticAsset",
